@@ -1,0 +1,103 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Assistant</title>
+    <!-- stylesheets  -->
+    <link rel="stylesheet" href="speech_to_text_chat.css">
+    <link rel="stylesheet" href="wake_word_detect.css">
+    <!-- eel script  -->
+    <script src="/eel.js"></script>
+</head>
+
+<body>
+    <!-- wake word screen  -->
+    <section id="wake_word_screen" style="display: block;">
+        <div class="wake_word_detect_cls">
+            <header>
+                <div class="navbar_cls"></div>
+            </header>
+            <div class="arc_container">
+                <div id="circle1" class="circle1_cls"></div>
+                <div id="circle2" class="circle2_cls"></div>
+                <div id="circle3" class="circle3_cls"></div>
+                <div id="circle4" class="circle4_cls"></div>
+                <div id="circle5" class="circle5_cls"></div>
+                <div id="circle6" class="circle6_cls"></div>
+                <div id="text_container" class="text_container_cls">
+                    <p id="text_message" class="text_message_cls">Listening</p>
+                </div>
+            </div>
+            <div class="mic_container">
+                <button id="start_stop"><img id="start_stop_mic_image" src="./assets/mic.png" alt="O"></button>
+            </div>
+            <footer>
+                <div class="footer_cls"></div>
+            </footer>
+        </div>
+    </section>
+
+    <!-- chat screen section  -->
+    <section id="chat_screen" style="display: none;">
+        <div class="speech_to_text_chat_cls">
+            <header id="navbar" class="navbar_cls">
+                <div id="logo">
+
+                </div>
+                <div class="heading_container">
+                    <h1 class="heading_cls">Voice-BOT</h1>
+                </div>
+                <div id="menu" class="menu_cls">
+                    <img id="menu_image" src="./assets/settings.png" alt="S" />
+                </div>
+            </header>
+            <ul id="menu_list">
+                <div id="close_menu_button" class="close_cls"><img id=cross_image src="./assets/cross.png" alt="X"></div>
+                <li id="languages">Languages</li>
+                <li id="settings">Settings</li>
+            </ul>
+
+            <div id="chat_area" class="chat_area_cls">
+                <div id="chat_messages" class="chat_messages_cls"></div>
+            </div>
+            <div class="user_input_container_cls">
+                <div class="user_input_cls">
+                <!-- <input type="text" id="message_input" placeholder="Message Voice-BOT..."> -->
+                    <textarea id="message_input" placeholder="Message Voice-BOT..."></textarea>
+                    <button id="send_button">SEND</button>
+                    <button id="mic_button">
+                        <img id="mic_image" src="./assets/mic.png" alt="O" />
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="speech_to_text_chat_cls">
+            <header>
+                <div class="heading_container">
+                    <h1 class="heading_cls">Voice-BOT</h1>
+                </div>
+            </header>
+            <div id="chat_area" class="chat_area_cls">
+                <div id="chat_messages" class="chat_messages_cls">
+    
+                </div>
+            </div>
+            <div class="user_input_container_cls">
+                <div class="user_input_cls">
+                        <textarea id="message_input", placeholder="Message Voice-BOT..."></textarea>
+                        <button id="send_button">SEND</button>
+                        <button id="mic_button"><img id="mic_image" src="./assets/mic.png" alt="O"></button>
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- scripts -->
+    <script src="speech_to_text_chat.js"></script>
+    <script src="wake_word_detect.js"></script>
+</body>
+
+</html>

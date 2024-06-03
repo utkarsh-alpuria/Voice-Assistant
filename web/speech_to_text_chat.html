@@ -1,0 +1,68 @@
+<!-- ========================================================================== -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eel Test</title>
+    <script src="/eel.js"></script>
+    
+</head>
+<body>
+    <button id="button1">Click Me</button>
+    <div id="content"></div>
+    
+    
+    <script src="script.js"></script>
+</body>
+
+</html> -->
+
+<!-- ================================================================== -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Personal Assistant</title>
+        <link rel="stylesheet" href="speech_to_text_chat.css" />
+        <script src="/eel.js"></script>
+  </head>
+    <body>
+        <div class="speech_to_text_chat_cls">
+            <header id="navbar" class="navbar_cls">
+                <div id="logo">
+
+                </div>
+                <div class="heading_container">
+                    <h1 class="heading_cls">Voice-BOT</h1>
+                </div>
+                <div id="menu" class="menu_cls">
+                    <img id="menu_image" src="./assets/settings.png" alt="S" />
+                </div>
+            </header>
+            <ul id="menu_list">
+                <div id="close_menu_button" class="close_cls"><img id=cross_image src="./assets/cross.png" alt="X"></div>
+                <li id="languages">Languages</li>
+                <li id="settings">Settings</li>
+            </ul>
+
+            <div id="chat_area" class="chat_area_cls">
+                <div id="chat_messages" class="chat_messages_cls"></div>
+            </div>
+            <div class="user_input_container_cls">
+                <div class="user_input_cls">
+                <!-- <input type="text" id="message_input" placeholder="Message Voice-BOT..."> -->
+                    <textarea id="message_input" placeholder="Message Voice-BOT..."></textarea>
+                    <button id="send_button">SEND</button>
+                    <button id="mic_button">
+                        <img id="mic_image" src="./assets/mic.png" alt="O" />
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <script src="speech_to_text_chat.js"></script>
+    </body>
+</html>

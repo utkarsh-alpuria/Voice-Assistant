@@ -1,0 +1,13 @@
+SpeechRecognition
+torch
+pyaudio
+sentencepiece
+transformers
+langchain
+langchain-cohere
+python-dotenv
+pyttsx3
+eel
+protobuf
+numpy
+SpeechRecognition[whisper-local]

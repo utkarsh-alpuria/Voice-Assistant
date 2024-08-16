@@ -2,8 +2,8 @@
 
 **Voice-Assistant** is an intelligent AI application designed for voice interactions through commands. It features a Python backend with a frontend crafted using JavaScript, HTML, and CSS.
 
-![Voice Assistant Cover](https://github.com/utkarsh-alpuria/Voice-Assistant-1.0/assets/166533290/7ef601cc-8a11-423c-83ed-9d917bb9ba40)
-![Chat Screen](https://github.com/utkarsh-alpuria/Voice-Assistant-1.0/assets/166533290/258ff5c7-5247-4aa1-8cee-937c690aca0c)
+![Voice Assistant Readme Cover](https://github.com/utkarsh-alpuria/Voice-Assistant/blob/main/web/assets/Voice%20Assistant%20Readme%20Cover%20Img.png)
+
 
 ## Project Structure 📁
 
